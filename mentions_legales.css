@@ -1,0 +1,93 @@
+body {
+	min-height: 75rem;
+    padding-top: 4.5rem;
+background-image :url("../images/wallpaper.webp");
+font-family:"Arial",sans-serif;
+
+}
+
+
+grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 3;
+   grid-row: 1;
+}
+
+.item2 {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+  
+}
+
+.item3 {
+  grid-column: 1 / span 3;
+   grid-row: 3;
+  
+}
+.item4 {
+  grid-column: 1 / span 3;
+  grid-row: 4;
+  
+}
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 5;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+footer{
+	text-decoration : none;
+	text-decoration-color : inherit;
+font-weight: bold;
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+
+}
+
+a{
+	text-decoration : none;
+	text-decoration-color : inherit;
+	color:black;
+	
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+/* Footer */
+
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid; 
+    padding-top: 1.25rem;
+}
+.ft-social-list li {
+    margin: 0.5rem;
+}

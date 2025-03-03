@@ -3,7 +3,7 @@ body {
 	min-height: 75rem;
     padding-top: 4.5rem;
 	font-family:"Arial",sans-serif;
-background-image :url(" ../images/wallpaper.webp");
+background-image :url(" ../images/wallpaper.png");
 
 }
 
@@ -27,7 +27,7 @@ text-align: center;
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
+    'menu header header header header header'
     'menu main main main main main'
     'menu right right right right right'
     'menu footer footer footer footer footer';
@@ -139,3 +139,4 @@ margin: 0 auto;
    -ms-text-size-adjust: 100%;
   }
 }
+
