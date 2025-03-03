@@ -1,0 +1,141 @@
+
+body {
+	min-height: 75rem;
+    padding-top: 4.5rem;
+	font-family:"Arial",sans-serif;
+background-image :url(" ../images/wallpaper.webp");
+
+}
+
+@media only screen and (max-width: 600px) {
+  body {href="https://www.monsite.fr/css/mobil.css}
+}
+
+
+
+h1{ 
+text-align: center;
+}
+
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu right right right right right'
+    'menu footer footer footer footer footer';
+ grid-gap: 10px;
+ padding: 4px;
+}
+
+
+.grid-container > div {
+ /** background-image :url(" ../images/wallpaper.png");**/
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+  padding: 5px 0;
+  font-size: auto;
+  
+}
+.meteo{
+justify-self: center;
+margin: 0 auto;
+}
+
+
+
+
+@media (max-width: 640px) {
+	* {
+		box-sizing: border-box;
+	}
+	
+	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+	img,
+	table,
+	td,
+	blockquote,
+	code,
+	pre,
+	textarea,
+	input,
+	iframe,
+	object,
+	embed,
+	video {
+		max-width: 100%;
+	}
+	
+	/* conserver le ratio des images */
+
+	img {
+		height: auto;
+	}
+	
+	/* gestion des mots longs */
+
+	textarea,
+	table,
+	td,
+	th,
+	code,
+	pre,
+	samp {
+		-webkit-hyphens: auto; /* césure propre */
+		-moz-hyphens: auto;
+		hyphens: auto;
+		word-wrap: break-word; /* passage à la ligne forcé */
+	}
+	
+	code,
+	pre,
+	samp {
+		white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+	}
+	
+	/* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+	.element1,
+	.element2 {
+		float: none;
+		width: auto;
+	}
+	
+	/* masquer les éléments superflus */
+
+	.hide_mobile {
+		display: none !important;
+	}
+	
+	/* Un message personnalisé */
+
+	body:before {
+		content: "Version mobile";
+		display: block;
+		text-align: center;
+		font-style: italic;
+		color: #777;
+	}
+}
+@media (max-device-width:768px) and (orientation: landscape) {
+  html {
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+  }
+}

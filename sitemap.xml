@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.lesrosiers-perigord.fr</loc>
+    <lastmod>2022-05-21</lastmod>
+    <image:image>
+      <image:loc>https://www.lesrosiers-perigord.fr/images/draanglais.jpg</image:loc>
+	<image:loc>https://www.lesrosiers-perigord.fr/images/7.webp</image:loc>
+	<image:loc>https://www.lesrosiers-perigord.fr/images/chambre-1.webp</image:loc>
+	<image:loc>https://www.lesrosiers-perigord.fr/images/chambre-2.webp</image:loc>
+	<image:loc>https://www.lesrosiers-perigord.fr/images/jardin.webp</image:loc>
+	<image:loc>https://www.lesrosiers-perigord.fr/images/salle-de-sejour.webp</image:loc>
+      <!--ERROR - Object reference not set to an instance of an object.-->
+      <url>
+        <loc>https://www.lesrosiers-perigord.fr/mentions_legales</loc>
+        <lastmod>2022-05-21</lastmod>
+      </url>
+    </image:image>
+    <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+  </url>
+</urlset>
